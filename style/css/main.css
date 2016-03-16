@@ -1,0 +1,48 @@
+#calculatorContainer {
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  background-image: url("../Imgs/gameboy2.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 600px; }
+
+#screenText {
+  position: relative;
+  top: -400px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: white;
+  left: 46px;
+  width: 180px; }
+
+.numbers {
+  display: inline;
+  float: left; }
+
+body {
+  background-image: url("../Imgs/blue.jpg"); }
+
+#digitsContainer {
+  position: relative;
+  margin-top: 300px;
+  margin-left: 90px;
+  height: 200px;
+  width: 320px; }
+
+#digitCol {
+  height: 200px;
+  width: 240px;
+  margin-left: 28px; }
+
+.btn {
+  height: 45px;
+  width: 46px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background-color: #B6B1B1;
+  color: black; }
+
+#specialNumbers {
+  margin-left: 10px;
+  margin-right: 10px; }
