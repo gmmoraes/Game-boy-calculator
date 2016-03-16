@@ -6,7 +6,6 @@ function add() {
       var values = $(this).val();
       var input = $( '#screenText' );
       input.val( input.val() + values );
-
     });
   }
 
